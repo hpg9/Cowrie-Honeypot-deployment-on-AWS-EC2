@@ -1,4 +1,38 @@
 # Cowrie-Honeypot-deployment-on-AWS-EC2
-AWS EC2 instance honeypot using Cowrie, Suricata Intrusion detection system with ELK stack visualization and threat intelligence analysis.
 
-# Overview
+## Overview
+AWS EC2 honeypot infrastructure deploying Cowrie SSH honeypot with Suricata IDS for 
+network-layer detection. Captured and analyzed real-world attack campaigns including 
+the **Multiverze cryptomining botnet**, mapped attacker TTPs to the MITRE ATT&CK 
+framework, and visualized telemetry through an ELK stack (Elasticsearch, Filebeat, 
+Kibana) with GeoIP mapping.
+
+---
+
+## Architecture
+```text
+Internet --> AWS EC2 (t3.micro)
+                |
+                +--iptables NAT (port 22 --> 2222)
+                +--Cowrie SSH Honeypot (port 2222)
+                +--Suricata Intrusion detection system (network layer detection)
+                        |
+                        |
+                      Filebeat
+                        |
+                        |
+                ELK Stack (Docker, local Mac)
+                    +-- Elasticsearch (indexing + GeoIP)
+                    +-- Kibana (dashboards + maps)
+
+
+```
+## Key Findings 
+
+### Captured Attack Data
+Real attacker commands and data from their session logged by Cowire and organized for real threat analysis. This Data includes Source IPs of attackers, and commands ran captured during live attacks
+
+### Threat: Multiverze Cryptomining botnet family
+- **Comfirmed via:** VirusTotal - classified as cryptomining malware
+
+
