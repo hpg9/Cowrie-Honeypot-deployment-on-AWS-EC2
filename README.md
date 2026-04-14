@@ -34,10 +34,11 @@ Real attacker commands and data from their session logged by Cowire and organize
 <img width="1468" height="917" alt="Image" src="https://github.com/user-attachments/assets/f9cc8d41-99ec-47db-b0ba-188203dab215" />
 
 
-### Threat: Multiverze Cryptomining botnet family
+## Threat: Multiverze Cryptomining botnet family
 - **Comfirmed via:** VirusTotal - classified as cryptomining malware
 - **Attack vector:** SSH brute force --> shell command execution
 - **Objective:** Deploy XMRig based monero miner on vulnerable hosts
+- **Multiverze threat actors IPS and malicious commands ran**
   
 
 
