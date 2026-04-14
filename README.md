@@ -30,7 +30,9 @@ Internet --> AWS EC2 (t3.micro)
 ## Key Findings 
 
 ### Captured Attack Data
-Real attacker commands and data from their session logged by Cowire and organized for real threat analysis. This Data includes Source IPs of attackers, and commands ran captured during live attacks
+Real attacker commands and data from their session logged by Cowire and organized for real threat analysis. This Data includes Source IPs of attackers, and commands ran captured during live attacks.
+<img width="1468" height="917" alt="Image" src="https://github.com/user-attachments/assets/f9cc8d41-99ec-47db-b0ba-188203dab215" />
+
 
 ### Threat: Multiverze Cryptomining botnet family
 - **Comfirmed via:** VirusTotal - classified as cryptomining malware
