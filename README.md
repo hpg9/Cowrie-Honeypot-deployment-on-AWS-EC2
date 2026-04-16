@@ -41,7 +41,7 @@ Real attacker commands and data from their session logged by Cowire and organize
 - **Multiverze threat actors IPS and malicious commands ran**
   | | |
   |---|---|
-  | <img width="1468" height="867" alt="Image" src="https://github.com/user-attachments/assets/fe4df690-4ad6-4137-a5e2-5fcef5f20b42" />| 
+  | <img width="1468" height="867" alt="Image" src="https://github.com/user-attachments/assets/fe4df690-4ad6-4137-a5e2-5fcef5f20b42" />| <img width="1463" height="758" alt="Image" src="https://github.com/user-attachments/assets/ef2ce4d4-3d81-4665-a818-72c6f8146931" /> |
   
 
 
