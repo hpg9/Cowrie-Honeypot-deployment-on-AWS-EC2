@@ -28,7 +28,14 @@ Internet --> AWS EC2 (t3.micro)
 
 ```
 # AWS setup
-<img width="1465" height="705" alt="Image" src="https://github.com/user-attachments/assets/094f276b-8772-44db-8501-f21b67bfc10a" />
+### EC2 instance
+<img width="1465" height="705" alt="Image" src="https://github.com/user-attachments/assets/094f276b-8772-44db-8501-f21b67bfc10a" /> 
+
+### Security groups
+<img width="1243" height="449" alt="Image" src="https://github.com/user-attachments/assets/3d4f48fd-f71f-4bb8-85e3-952d1105359c" />
+
+### Cloudwatch Alarm and SNS alerts
+
 
 
 ## Key Findings 
