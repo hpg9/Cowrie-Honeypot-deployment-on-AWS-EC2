@@ -27,6 +27,9 @@ Internet --> AWS EC2 (t3.micro)
 
 
 ```
+# AWS setup
+
+
 ## Key Findings 
 
 ### Captured Attack Data
