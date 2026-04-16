@@ -35,6 +35,9 @@ Internet --> AWS EC2 (t3.micro)
 <img width="1243" height="449" alt="Image" src="https://github.com/user-attachments/assets/3d4f48fd-f71f-4bb8-85e3-952d1105359c" />
 
 ### Cloudwatch Alarm and SNS alerts
+| Attack Spike Graph | SNS email notification |
+|---|---|
+| <img width="1337" height="652" alt="Image" src="https://github.com/user-attachments/assets/231c397b-c15c-45d5-9197-7bc9a47c8bff" /> | 
 
 
 
