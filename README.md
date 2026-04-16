@@ -39,6 +39,9 @@ Real attacker commands and data from their session logged by Cowire and organize
 - **Attack vector:** SSH brute force --> shell command execution
 - **Objective:** Deploy XMRig based monero miner on vulnerable hosts
 - **Multiverze threat actors IPS and malicious commands ran**
+  | | |
+  |---|---|
+  | <img width="1468" height="867" alt="Image" src="https://github.com/user-attachments/assets/fe4df690-4ad6-4137-a5e2-5fcef5f20b42" />| 
   
 
 
