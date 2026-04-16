@@ -28,6 +28,7 @@ Internet --> AWS EC2 (t3.micro)
 
 ```
 # AWS setup
+<img width="1465" height="705" alt="Image" src="https://github.com/user-attachments/assets/094f276b-8772-44db-8501-f21b67bfc10a" />
 
 
 ## Key Findings 
