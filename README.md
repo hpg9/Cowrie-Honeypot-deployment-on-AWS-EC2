@@ -63,6 +63,24 @@ Real attacker commands and data from their session logged by Cowire and organize
   | | |
   |---|---|
   | <img width="1468" height="867" alt="Image" src="https://github.com/user-attachments/assets/fe4df690-4ad6-4137-a5e2-5fcef5f20b42" />| <img width="1463" height="758" alt="Image" src="https://github.com/user-attachments/assets/ef2ce4d4-3d81-4665-a818-72c6f8146931" /> |
+
+  ## MITRE ATT&CK Framework Mapping
+
+Attacker behavior observed through Cowrie logs was mapped to the MITRE 
+ATT&CK framework to classify tactics and techniques used during live attacks.
+
+| Tactic | Technique | ID | Evidence Observed |
+|---|---|---|---|
+| Reconnaissance | Active Scanning | T1595 | Automated scanners probing port 22 within minutes of deployment |
+| Initial Access | Exploit Public-Facing Application | T1190 | SSH honeypot targeted continuously across the deployment period |
+| Credential Access | Brute Force: Password Spraying | T1110.003 | Thousands of login attempts using common credentials (root, admin, ubuntu) |
+| Execution | Command and Scripting Interpreter: Unix Shell | T1059.004 | chmod +x scripts, curl payload downloads, nohup persistence commands |
+| Persistence | Boot or Logon Initialization Scripts | T1037 | nohup sshd & commands attempting to survive reboots |
+| Defense Evasion | Masquerading | T1036 | Malware dropped in /tmp with randomized filenames |
+| Discovery | System Information Discovery | T1082 | uname -a, cat /etc/passwd, /proc/cpuinfo enumeration commands |
+| Lateral Movement | Remote Services: SSH | T1021.004 | Botnet spread attempts to 50+ C2 IPs via SSH |
+| Collection | Data from Local System | T1005 | Attackers reading system files to profile the host |
+| Impact | Resource Hijacking | T1496 | XMRig Monero miner deployment via Multiverze botnet |
   
 
 
