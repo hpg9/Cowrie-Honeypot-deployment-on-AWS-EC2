@@ -37,7 +37,7 @@ Internet --> AWS EC2 (t3.micro)
 ### Cloudwatch Alarm and SNS alerts
 | Attack Spike Graph | SNS email notification |
 |---|---|
-| <img width="1337" height="652" alt="Image" src="https://github.com/user-attachments/assets/231c397b-c15c-45d5-9197-7bc9a47c8bff" /> | 
+| <img width="1337" height="652" alt="Image" src="https://github.com/user-attachments/assets/231c397b-c15c-45d5-9197-7bc9a47c8bff" /> | <img width="575" height="672" alt="Image" src="https://github.com/user-attachments/assets/060ae275-92c6-4b62-8a58-28809343a24b" />
 
 # Log analysis and visulization
 All attack data has been parsed and visualized using elastic search, filebeat, and kibana with Geoip inrichment
