@@ -43,6 +43,9 @@ Internet --> AWS EC2 (t3.micro)
 All attack data has been parsed and visualized using elastic search, filebeat, and kibana with Geoip inrichment
 <img width="1468" height="794" alt="Image" src="https://github.com/user-attachments/assets/67b78d36-7f62-4d53-a263-b43b5a3f860c" />
 <img width="1458" height="654" alt="Image" src="https://github.com/user-attachments/assets/ac0963ef-46b8-4b37-b0af-870ca80bd3ac" />
+| Bar Graph | Number of Hits |
+|---|---|
+| <img width="737" height="422" alt="Image" src="https://github.com/user-attachments/assets/f86f4233-c0d9-488a-9e24-f15a19034547" /> |
 
 
 ## Key Findings 
