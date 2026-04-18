@@ -41,6 +41,7 @@ Internet --> AWS EC2 (t3.micro)
 
 # Log analysis and visulization
 All attack data has been parsed and visualized using elastic search, filebeat, and kibana with Geoip inrichment
+<img width="1468" height="794" alt="Image" src="https://github.com/user-attachments/assets/67b78d36-7f62-4d53-a263-b43b5a3f860c" />
 
 
 ## Key Findings 
