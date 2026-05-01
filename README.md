@@ -27,6 +27,19 @@ Internet --> AWS EC2 (t3.micro)
 
 
 ```
+### OpenCanary Decoy Services
+In addition to Cowrie, OpenCanary was deployed to simulate additional 
+vulnerable services and expand the honeypot attack surface.
+
+| Service | Port | Purpose |
+|---|---|---|
+| FTP | 21 | Decoy file transfer service |
+| Telnet | 23 | Legacy protocol commonly targeted by botnets |
+| HTTP | 80 | Simulated web server |
+
+Any connection attempt to these ports is logged as a potential 
+intrusion event, providing additional telemetry beyond SSH attacks.
+
 # AWS setup
 ### EC2 instance
 <img width="1465" height="705" alt="Image" src="https://github.com/user-attachments/assets/094f276b-8772-44db-8501-f21b67bfc10a" /> 
